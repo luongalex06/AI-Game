@@ -4,7 +4,7 @@ let bandit = {
     name: "Bandit", 
     health: 20, 
     attack: 5, 
-    image: "images/bandit.png",
+    image: "bandit.png",
     loot: ["Gold", "Silver", "Potion"]
 };
 
@@ -33,7 +33,7 @@ document.getElementById('start-game').addEventListener('click', () => {
 // Create player character based on selected class
 function createCharacter(name, characterClass) {
     const stats = {
-        Warrior: { strength: 15, agility: 8, magic: 3, health: 100, image: "images/warrior.png" },
+        Warrior: { strength: 15, agility: 8, magic: 3, health: 100, image: "warrior.png" },
         Mage: { strength: 6, agility: 10, magic: 15, health: 70, image: "images/mage.png" },
         Rogue: { strength: 8, agility: 15, magic: 5, health: 80, image: "images/rogue.png" },
     };
